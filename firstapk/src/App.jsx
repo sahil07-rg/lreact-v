@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
-import Textform from "./components/textform";
-import About from "./components/about";
+import Textform from "./components/Textform";
+import About from "./components/About";
 import "./App.css";
 import React, { useState } from "react";
 import Alert from "./components/Alert";
@@ -20,6 +20,7 @@ function App() {
   {
     path: "/about",
     element: <About />
+
   },
 
 ]);
