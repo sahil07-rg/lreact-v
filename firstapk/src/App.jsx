@@ -18,7 +18,7 @@ function App() {
     element : <Textform headings="Enter the text you want to write" mode={mode} />  
   },
   {
-    path: "/about",
+    path: "/About",
     element: <About />
 
   },
